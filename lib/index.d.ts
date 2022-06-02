@@ -364,6 +364,7 @@ declare namespace Ffmpeg {
         // processor
         renice(niceness: number): FfmpegCommand;
         kill(signal: string): FfmpegCommand;
+        getPid(): Number;
         _getArguments(): string[];
 
         // capabilities
