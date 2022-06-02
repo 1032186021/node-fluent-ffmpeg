@@ -1,6 +1,6 @@
 {
-  "name": "fluent-ffmpeg",
-  "version": "2.1.2",
+  "name": "fluent-ffmpeg-pid",
+  "version": "1.0.3",
   "description": "A fluent API to FFMPEG (http://www.ffmpeg.org)",
   "keywords": [
     "ffmpeg"
@@ -31,6 +31,7 @@
     "node": ">=0.8.0"
   },
   "main": "index",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "test": "make test"
   }
